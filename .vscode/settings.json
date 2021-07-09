@@ -1,0 +1,9 @@
+{
+	"workbench.colorTheme": "Midnight Flames",
+	"bracket-pair-colorizer-2.colorMode": "Consecutive",
+	"editor.cursorBlinking": "phase",
+	"powermode.enabled": true,
+	"powermode.presets": "particles",
+	"powermode.enableShake": false,
+	"powermode.enableExplosions": true
+}
