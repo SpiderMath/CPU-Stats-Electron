@@ -1,20 +1,18 @@
 {
-  "name": "cpu-stats-electron",
-  "productName": "cpu-stats-electron",
-  "version": "1.0.0",
-  "description": "My Electron application description",
-  "main": "Source/Index.js",
-  "scripts": {
-    "start": "electron-forge start",
-    "package": "electron-forge package",
-    "make": "electron-forge make",
-    "publish": "electron-forge publish",
-    "lint": "echo \"No linting configured\""
-  },
-  "keywords": [],
-  "author": {
-    "name": "SpiderMath",
-    "email": "71999854+SpiderMath@users.noreply.github.com"
-  },
-  "license": "MIT"
+	"name": "cpu-stats-electron",
+	"productName": "cpu-stats-electron",
+	"version": "1.0.0",
+	"description": "My Electron application description",
+	"keywords": [],
+	"author": {
+		"name": "SpiderMath",
+		"email": "71999854+SpiderMath@users.noreply.github.com"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"eslint": "^7.30.0"
+	},
+	"dependencies": {
+		"express": "^4.17.1"
+	}
 }
