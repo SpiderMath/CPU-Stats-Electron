@@ -4,15 +4,20 @@
 	"version": "1.0.0",
 	"description": "My Electron application description",
 	"keywords": [],
+	"scripts": {
+		"dev": "npx nodemon --exec 'npx electron' ./Source/App.js"
+	},
 	"author": {
 		"name": "SpiderMath",
 		"email": "71999854+SpiderMath@users.noreply.github.com"
 	},
 	"license": "MIT",
 	"devDependencies": {
-		"eslint": "^7.30.0"
+		"eslint": "^7.30.0",
+		"nodemon": "^2.0.11"
 	},
 	"dependencies": {
+		"dotenv": "^10.0.0",
 		"electron": "^13.1.6"
 	}
 }
