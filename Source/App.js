@@ -19,6 +19,7 @@ app.on("ready", () => {
 		center: true,
 		webPreferences: {
 			nodeIntegration: true,
+			contextIsolation: false,
 		},
 	});
 
